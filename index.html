@@ -6,13 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- Importiamo Vuejs usando il link della CDN -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-       
+
+    
+    <!-- Definiamo l'elemento HTML dentro il quale Vue verrà utilizzato.    -->
     <div id="app">
 
         <h1>{{message}}</h1>
-        <img :src= "src" alt="">
-
+        <img :src= "src" :alt="alt">
     </div>
 
 
